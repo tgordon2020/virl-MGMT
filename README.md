@@ -1,6 +1,6 @@
 # virl-MGMT
 
-Python script to add OOBM VRF and interface config on device configurations from INE github V5 labs.  There is a buch of stuff hardcoded
+Python script to add OOBM VRF and interface config on device configurations from INE github V5 labs.  There is a bunch of stuff hardcoded
 and I didn't follow pep8 rules.
 
 Read all files contained in the topologies subdirectory from where the script is run.  I also have a utils.py file that contains some 
