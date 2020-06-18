@@ -13,10 +13,10 @@ Open the device configs.
 * Configures http client interface as gig0/0(used to download configs from lab script)
 * add no cdp log mismatch duplex to prevent the annoying console messages on GNS3\
 * updates VTY 0 4
- * priv level 15
- * password password
- * login
- * transport input all
+  * priv level 15
+  * password password
+  * login
+  * transport input all
 Then save the file with the same filename.
 The script will check if the above configs exist, and not update if exists.
 If any of the stops fail, it will catch the exeption and the filename and operation to console so the file can be manually edited.
