@@ -17,6 +17,7 @@ Open the device configs.
   * password password
   * login
   * transport input all
+  
 Then save the file with the same filename.
 The script will check if the above configs exist, and not update if exists.
 If any of the stops fail, it will catch the exeption and the filename and operation to console so the file can be manually edited.
