@@ -6,6 +6,7 @@ and I didn't follow pep8 rules.
 Read all files contained in the topologies subdirectory from where the script is run.  I also have a utils.py file that contains some 
 functions I use in my lab load script.  This script relies on the deviceip function in utils to populate the ip address for gig0/0 from hostname(derived from filename)
 
+The script does the following.
 Open the device configs.
 * Adds a MGMT VRF
 * Creates a gig0/0 interface and puts it in MGMT VRF
